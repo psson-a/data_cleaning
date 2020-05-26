@@ -1,5 +1,7 @@
 #run_analysis.R
 
+library(dplyr) #required for group_by and summarize
+
 #read dataset which has been split into two
 X_train <- read.table("UCI HAR Dataset/train/X_train.txt")
 label_train <- read.table("UCI HAR Dataset/train/Y_train.txt")
@@ -35,6 +37,8 @@ activity_list <- tolower((activity_list))
 combined$activity <- as.factor(combined$activity)
 levels(combined$activity) <- activity_list
 
-#apply colMean to each subject and activity combination
-t <- split(combined, list(combined$subject, combined$activity))
-lapply (t, function(x) colMeans(x[,c(-1,-2)]))
+#used dplyr functions to get the mean of every column for each subject and activity 
+combined <- tbl_df(combined)
+new_grouped <-    combined %>% 
+                   group_by(subject, activity) %>% 
+                   summarize_all(mean)
