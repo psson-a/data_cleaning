@@ -5,6 +5,11 @@ This repo contains the following files:
 2. **CodeBook.md:** a codebook explaining the variable names 
 3. **README.md** (this file)
 
+## Running the script
+
+Place the script in the same folder as the UCI HAR Dataset folder, make sure this is the working directory, then run the following command in R:
+`source("run_analysis.R")`
+
 ## How run_analysis.R works
 
 Some guidance for how to go about the task has been derived from https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
