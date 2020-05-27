@@ -5,12 +5,9 @@ This repo contains the following files:
 2. **CodeBook.md:** a codebook explaining the variable names 
 3. **README.md** (this file)
 
-## Reading the processed datafile
-To read the *UCI HAR data tidy.txt* datafile, use the following command in R:
-
-`df <- read.table("UCI HAR data tidy.txt", header=TRUE)`
-
 ## How run_analysis.R works
+
+Some guidance for how to go about the task has been derived from https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 
 run_analysis.R requires the _dplyr_ library to run. If not already installed, it can be installed by the following command:
 `install.packages("dplyr")`
@@ -26,3 +23,14 @@ The script performs all the steps given in the assignment, but not in the in the
 7. Use regex to modify the variable names to more human readable form. In the process we're also removing the duplication of "Body" seen in some variable names which seems to be an error since there is no explanation for it in the original codebook
 8. Use dplyr to group the dataframe and calculate the means of the variables
 9. Output.
+
+## Reading the processed datafile
+To read the *UCI HAR data tidy.txt* datafile, use the following command in R:
+
+`df <- read.table("UCI HAR data tidy.txt", header=TRUE)`
+
+## The processed data
+The output of the script is a wide-format tidy datafile. The first two columns give the subject number and the activity, while the remaining columns are each a different variable. The output conforms to the tidy data principles:
+1. *Each variable forms a column:* The measured variables are means of means and standard deviations of the measurements derived from the accelerometer and gyroscope data
+2. *Each observation forms a row:* An observation is a subject doing an activity
+3. *Each type of observational unit forms a table:* There are no repeat values which could be split off into another table
