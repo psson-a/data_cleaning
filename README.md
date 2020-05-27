@@ -2,7 +2,7 @@
 
 This repo contains the following files:
 1. **run_analysis.R**: an R-script that needs as _input_ the *UCI HAR Dataset* folder in the working directory and outputs a file called *UCI HAR data tidy.txt*
-2. **CodeBook.md:** a codebook explaining the variable names 
+2. **CodeBook.md:** a codebook explaining the variables present in the processed data
 3. **README.md** (this file)
 
 ## Running the script
