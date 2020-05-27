@@ -14,266 +14,266 @@ Activity performed during measurement, one of "walking", "walking_upstairs", "wa
 
 The original data was captured by the subject wearing a Samsung Galaxy S II - smartphone while performing various assigned activities. Linear acceleration (accelerometer) and angular velocity (gyroscope) were captured in the X, Y and Z axises/planes. The raw data for the script producing the current datafile has been preprocessed by various means (described in the README.txt file in the "UCI HAR DATASET" folder) to yield summary variables of the time-domain measurements and also Fourier-transformed to yield summary frequency-domain variables. The script further processes the data by selecting only the mean and standard deviation-variables for each measurement variable and then taking the mean over time for each subject-activity combination, yielding an average value per subject per activity for each measured variable. The unit of measurement for the variables is not known.
 
-3.	**body_acceleration_x-axis-mean()**:
+3.	**body_acceleration_x-axis-mean**:
 
 Mean of body acceleration measured on x-axis
 
-4.	**body_acceleration_y-axis-mean()**:
+4.	**body_acceleration_y-axis-mean**:
 
 Mean of body acceleration measured on y-axis
 
-5.	**body_acceleration_z-axis-mean()**:
+5.	**body_acceleration_z-axis-mean**:
 
 Mean of body acceleration measured on z-axis
 
-6.	**body_acceleration_x-axis-std()**:
+6.	**body_acceleration_x-axis-std**:
 
 Standard deviation of body acceleration measured on x-axis
 
-7.	**body_acceleration_y-axis-std()**:
+7.	**body_acceleration_y-axis-std**:
 
 Standard deviation of body acceleration measured on y-axis
 
-8.	**body_acceleration_z-axis-std()**:
+8.	**body_acceleration_z-axis-std**:
 
 Standard deviation of body acceleration measured on z-axis
 
-9.	**gravity_acceleration_x-axis-mean()**:
+9.	**gravity_acceleration_x-axis-mean**:
 
 Mean of gravity acceleration measured on x-axis
 
-10.	**gravity_acceleration_y-axis-mean()**:
+10.	**gravity_acceleration_y-axis-mean**:
 
 Mean of gravity acceleration measured on y-axis
 
-11.	**gravity_acceleration_z-axis-mean()**:
+11.	**gravity_acceleration_z-axis-mean**:
 
 Mean of gravity acceleration measured on z-axis
 
-12.	**gravity_acceleration_x-axis-std()**:
+12.	**gravity_acceleration_x-axis-std**:
 
 Standard deviation of gravity acceleration measured on x-axis
 
-13.	**gravity_acceleration_y-axis-std()**:
+13.	**gravity_acceleration_y-axis-std**:
 
 Standard deviation of gravity acceleration measured on y-axis
 
-14.	**gravity_acceleration_z-axis-std()**:
+14.	**gravity_acceleration_z-axis-std**:
 
 Standard deviation of gravity acceleration measured on z-axis
 
-15.	**body_acceleration_jerk_x-axis-mean()**:
+15.	**body_acceleration_jerk_x-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body acceleration measured on x-axis
 
-16.	**body_acceleration_jerk_y-axis-mean()**:
+16.	**body_acceleration_jerk_y-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body acceleration measured on y-axis
 
-17.	**body_acceleration_jerk_z-axis-mean()**:
+17.	**body_acceleration_jerk_z-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body acceleration measured on z-axis
 
-18.	**body_acceleration_jerk_x-axis-std()**:
+18.	**body_acceleration_jerk_x-axis-std**:
 
 Standard deviation of jerk-signal (derived by time) for body acceleration measured on x-axis
 
-19.	**body_acceleration_jerk_y-axis-std()**:
+19.	**body_acceleration_jerk_y-axis-std**:
 
 Standard deviationMean of jerk-signal (derived by time) for body acceleration measured on y-axis
 
-20.	**body_acceleration_jerk_z-axis-std()**:
+20.	**body_acceleration_jerk_z-axis-std**:
 
 Standard deviation of jerk-signal (derived by time) for body acceleration measured on z-axis
 
-21.	**body_gyroscope_x-axis-mean()**:
+21.	**body_gyroscope_x-axis-mean**:
 
 Mean of body angular velocity measured  in x-plane
 
-22.	**body_gyroscope_y-axis-mean()**:
+22.	**body_gyroscope_y-axis-mean**:
 
 Mean of body angular velocity measured in y-plane
 
-23.	**body_gyroscope_z-axis-mean()**:
+23.	**body_gyroscope_z-axis-mean**:
 
 Mean of body angular velocity measured in z-plane
 
-24.	**body_gyroscope_x-axis-std()**:
+24.	**body_gyroscope_x-axis-std**:
 
 Standard deviation of body angular velocity measured in x-plane
 
-25.	**body_gyroscope_y-axis-std()**:
+25.	**body_gyroscope_y-axis-std**:
 
 Standard deviation of body angular velocity measured in y-plane
 
-26.	**body_gyroscope_z-axis-std()**:
+26.	**body_gyroscope_z-axis-std**:
 
 Standard deviation of body angular velocity measured in z-plane
 
-27.	**body_gyroscope_jerk_x-axis-mean()**:
+27.	**body_gyroscope_jerk_x-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body angular velocity measured in x-plane
 
-28.	**body_gyroscope_jerk_y-axis-mean()**:
+28.	**body_gyroscope_jerk_y-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body angular velocity measured in y-plane
 
-29.	**body_gyroscope_jerk_z-axis-mean()**:
+29.	**body_gyroscope_jerk_z-axis-mean**:
 
 Mean of jerk-signal (derived by time) for body angular velocity measured in z-plane
 
-30.	**body_gyroscope_jerk_x-axis-std()**:
+30.	**body_gyroscope_jerk_x-axis-std**:
 
 Standard deviation of jerk-signal (derived by time) for body angular velocity measured in x-plane
 
-31.	**body_gyroscope_jerk_y-axis-std()**:
+31.	**body_gyroscope_jerk_y-axis-std**:
 
 Standard deviation of jerk-signal (derived by time) for body angular velocity measured in y-plane
 
-32.	**body_gyroscope_jerk_z-axis-std()**:
+32.	**body_gyroscope_jerk_z-axis-std**:
 
 Standard deviation of jerk-signal (derived by time) for body angular velocity measured in z-plane
 
-33.	**body_acceleration_magnitude-mean()**:
+33.	**body_acceleration_magnitude-mean**:
 
 Mean of magnitude of body acceleration
 
-34.	**body_acceleration_magnitude-std()**:
+34.	**body_acceleration_magnitude-std**:
 
 Standard deviation of magnitude of body acceleration
 
-35.	**gravity_acceleration_magnitude-mean()**:
+35.	**gravity_acceleration_magnitude-mean**:
 
 Mean of magnitude of gravity acceleration
 
-36.	**gravity_acceleration_magnitude-std()**:
+36.	**gravity_acceleration_magnitude-std**:
 
 Standard deviation of magnitude of gravity acceleration
 
-37.	**body_acceleration_jerk_magnitude-mean()**:
+37.	**body_acceleration_jerk_magnitude-mean**:
 
 Mean of magnitude of jerk signal (derived by time) for body acceleration
 
-38.	**body_acceleration_jerk_magnitude-std()**:
+38.	**body_acceleration_jerk_magnitude-std**:
 
 Standard deviation of magnitude of jerk signal (derived by time) for body acceleration
 
-39.	**body_gyroscope_magnitude-mean()**:
+39.	**body_gyroscope_magnitude-mean**:
 
 Mean of magnitude for body angular velocity
 
-40.	**body_gyroscope_magnitude-std()**:
+40.	**body_gyroscope_magnitude-std**:
 
 Standard deviation of magnitude of for body angular velocity
 
-41.	**body_gyroscope_jerk_magnitude-mean()**:
+41.	**body_gyroscope_jerk_magnitude-mean**:
 
 Mean of magnitude of jerk signal (derived by time) for body angular velocity
 
-42.	**body_gyroscope_jerk_magnitude-std()**:
+42.	**body_gyroscope_jerk_magnitude-std**:
 
 Standard deviation of magnitude of jerk signal (derived by time) for body angular velocity
 
-43.	**frequency_domain_body_acceleration_x-axis-mean()**:
+43.	**frequency_domain_body_acceleration_x-axis-mean**:
 
 Fourier-transformed mean of body acceleration measured on x-axis
 
-44.	**frequency_domain_body_acceleration_y-axis-mean()**:
+44.	**frequency_domain_body_acceleration_y-axis-mean**:
 
 Fourier-transformed mean of body acceleration measured on y-axis
 
-45.	**frequency_domain_body_acceleration_z-axis-mean()**:
+45.	**frequency_domain_body_acceleration_z-axis-mean**:
 
 Fourier-transformed mean of body acceleration measured on z-axis
 
-46.	**frequency_domain_body_acceleration_x-axis-std()**:
+46.	**frequency_domain_body_acceleration_x-axis-std**:
 
 Fourier-transformed standard deviation of body acceleration measured on x-axis
 
-47.	**frequency_domain_body_acceleration_y-axis-std()**:
+47.	**frequency_domain_body_acceleration_y-axis-std**:
 
 Fourier-transformed standard deviation of body acceleration measured on y-axis
 
-48.	**frequency_domain_body_acceleration_z-axis-std()**:
+48.	**frequency_domain_body_acceleration_z-axis-std**:
 
 Fourier-transformed standard deviation of body acceleration measured on z-axis
 
-49.	**frequency_domain_body_acceleration_jerk_x-axis-mean()**:
+49.	**frequency_domain_body_acceleration_jerk_x-axis-mean**:
 
 Fourier-transformed mean of jerk-signal (derived by time) for body acceleration measured on x-axis
 
-50.	**frequency_domain_body_acceleration_jerk_y-axis-mean()**:
+50.	**frequency_domain_body_acceleration_jerk_y-axis-mean**:
 
 Fourier-transformed mean of jerk-signal (derived by time) for body acceleration measured on y-axis
 
-51.	**frequency_domain_body_acceleration_jerk_z-axis-mean()**:
+51.	**frequency_domain_body_acceleration_jerk_z-axis-mean**:
 
 Fourier-transformed mean of jerk-signal (derived by time) for body acceleration measured on z-axis
 
-52.	**frequency_domain_body_acceleration_jerk_x-axis-std()**:
+52.	**frequency_domain_body_acceleration_jerk_x-axis-std**:
 
 Fourier-transformed standard deviation of jerk-signal (derived by time) for body acceleration measured on x-axis
 
-53.	**frequency_domain_body_acceleration_jerk_y-axis-std()**:
+53.	**frequency_domain_body_acceleration_jerk_y-axis-std**:
 
 Fourier-transformed standard deviation of jerk-signal (derived by time) for body acceleration measured on y-axis
 
-54.	**frequency_domain_body_acceleration_jerk_z-axis-std()**:
+54.	**frequency_domain_body_acceleration_jerk_z-axis-std**:
 
 Fourier-transformed standard deviation of jerk-signal (derived by time) for body acceleration measured on z-axis
 
-55.	**frequency_domain_body_gyroscope_x-axis-mean()**:
+55.	**frequency_domain_body_gyroscope_x-axis-mean**:
 
 Fourier-transformed mean of body angular velocity measured in x-plane
 
-56.	**frequency_domain_body_gyroscope_y-axis-mean()**:
+56.	**frequency_domain_body_gyroscope_y-axis-mean**:
 
 Fourier-transformed mean of body angular velocity measured in y-plane
 
-57.	**frequency_domain_body_gyroscope_z-axis-mean()**:
+57.	**frequency_domain_body_gyroscope_z-axis-mean**:
 
 Fourier-transformed mean of body angular velocity measured in z-plane
 
-58.	**frequency_domain_body_gyroscope_x-axis-std()**:
+58.	**frequency_domain_body_gyroscope_x-axis-std**:
 
 Fourier-transformed standard deviation of body angular velocity measured in x-plane
 
-59.	**frequency_domain_body_gyroscope_y-axis-std()**:
+59.	**frequency_domain_body_gyroscope_y-axis-std**:
 
 Fourier-transformed standard deviation of body angular velocity measured in y-plane
 
-60.	**frequency_domain_body_gyroscope_z-axis-std()**:
+60.	**frequency_domain_body_gyroscope_z-axis-std**:
 
 Fourier-transformed standard deviation of body angular velocity measured in z-plane
 
-61.	**frequency_domain_body_acceleration_magnitude-mean()**:
+61.	**frequency_domain_body_acceleration_magnitude-mean**:
 
 Fourier-transformed mean of magnitude of body acceleration
 
-62.	**frequency_domain_body_acceleration_magnitude-std()**:
+62.	**frequency_domain_body_acceleration_magnitude-std**:
 
 Fourier-transformed standard deviation of magnitude of body acceleration
 
-63.	**frequency_domain_body_acceleration_jerk_magnitude-mean()**:
+63.	**frequency_domain_body_acceleration_jerk_magnitude-mean**:
 
 Fourier-transformed mean of magnitude of jerk signal (derived by time) for body acceleration
 
-64.	**frequency_domain_body_acceleration_jerk_magnitude-std()**:
+64.	**frequency_domain_body_acceleration_jerk_magnitude-std**:
 
 Fourier-transformed standard deviation of magnitude of jerk signal (derived by time) for body acceleration
 
-65.	**frequency_domain_body_gyroscope_magnitude-mean()**:
+65.	**frequency_domain_body_gyroscope_magnitude-mean**:
 
 Fourier-transformed mean of magnitude of body angular velocity
 
-66.	**frequency_domain_body_gyroscope_magnitude-std()**:
+66.	**frequency_domain_body_gyroscope_magnitude-std**:
 
 Fourier-transformed standard deviation of magnitude of body angular velocity
 
-67.	**frequency_domain_body_gyroscope_jerk_magnitude-mean()**:
+67.	**frequency_domain_body_gyroscope_jerk_magnitude-mean**:
 
 Fourier-transformed mean of magnitude of jerk signal (derived by time) for body angular velocity
 
-68.	**frequency_domain_body_gyroscope_jerk_magnitude-std()**:
+68.	**frequency_domain_body_gyroscope_jerk_magnitude-std**:
 
 Fourier-transformed standard deviation of magnitude of jerk signal (derived by time) for body angular velocity
