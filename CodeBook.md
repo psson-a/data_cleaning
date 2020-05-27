@@ -80,7 +80,7 @@ Standard deviation of jerk-signal (derived by time) for body acceleration measur
 
 19.	**body_acceleration_jerk_y-axis-std**:
 
-Standard deviationMean of jerk-signal (derived by time) for body acceleration measured on y-axis
+Standard deviation of jerk-signal (derived by time) for body acceleration measured on y-axis
 
 20.	**body_acceleration_jerk_z-axis-std**:
 
