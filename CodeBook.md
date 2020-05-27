@@ -88,51 +88,51 @@ Standard deviation of jerk-signal (derived by time) for body acceleration measur
 
 21.	**body_gyroscope_x-axis-mean()**:
 
-Mean of body gyroscope signal measured on x-axis
+Mean of body angular velocity measured  in x-plane
 
 22.	**body_gyroscope_y-axis-mean()**:
 
-Mean of body gyroscope signal measured on y-axis
+Mean of body angular velocity measured in y-plane
 
 23.	**body_gyroscope_z-axis-mean()**:
 
-Mean of body gyroscope signal measured on z-axis
+Mean of body angular velocity measured in z-plane
 
 24.	**body_gyroscope_x-axis-std()**:
 
-Standard deviation of body gyroscope signal measured on x-axis
+Standard deviation of body angular velocity measured in x-plane
 
 25.	**body_gyroscope_y-axis-std()**:
 
-Standard deviation of body gyroscope signal measured on y-axis
+Standard deviation of body angular velocity measured in y-plane
 
 26.	**body_gyroscope_z-axis-std()**:
 
-Standard deviation of body gyroscope signal measured on z-axis
+Standard deviation of body angular velocity measured in z-plane
 
 27.	**body_gyroscope_jerk_x-axis-mean()**:
 
-Mean of jerk-signal (derived by time) for body gyroscope signal measured on x-axis
+Mean of jerk-signal (derived by time) for body angular velocity measured in x-plane
 
 28.	**body_gyroscope_jerk_y-axis-mean()**:
 
-Mean of jerk-signal (derived by time) for body gyroscope signal measured on y-axis
+Mean of jerk-signal (derived by time) for body angular velocity measured in y-plane
 
 29.	**body_gyroscope_jerk_z-axis-mean()**:
 
-Mean of jerk-signal (derived by time) for body gyroscope signal measured on z-axis
+Mean of jerk-signal (derived by time) for body angular velocity measured in z-plane
 
 30.	**body_gyroscope_jerk_x-axis-std()**:
 
-Standard deviation of jerk-signal (derived by time) for body gyroscope signal measured on x-axis
+Standard deviation of jerk-signal (derived by time) for body angular velocity measured in x-plane
 
 31.	**body_gyroscope_jerk_y-axis-std()**:
 
-Standard deviation of jerk-signal (derived by time) for body gyroscope signal measured on y-axis
+Standard deviation of jerk-signal (derived by time) for body angular velocity measured in y-plane
 
 32.	**body_gyroscope_jerk_z-axis-std()**:
 
-Standard deviation of jerk-signal (derived by time) for body gyroscope signal measured on z-axis
+Standard deviation of jerk-signal (derived by time) for body angular velocity measured in z-plane
 
 33.	**body_acceleration_magnitude-mean()**:
 
@@ -160,19 +160,19 @@ Standard deviation of magnitude of jerk signal (derived by time) for body accele
 
 39.	**body_gyroscope_magnitude-mean()**:
 
-Mean of magnitude for body gyroscope signal
+Mean of magnitude for body angular velocity
 
 40.	**body_gyroscope_magnitude-std()**:
 
-Standard deviation of magnitude of for body gyroscope signal
+Standard deviation of magnitude of for body angular velocity
 
 41.	**body_gyroscope_jerk_magnitude-mean()**:
 
-Mean of magnitude of jerk signal (derived by time) for body gyroscope signal
+Mean of magnitude of jerk signal (derived by time) for body angular velocity
 
 42.	**body_gyroscope_jerk_magnitude-std()**:
 
-Standard deviation of magnitude of jerk signal (derived by time) for body gyroscope signal
+Standard deviation of magnitude of jerk signal (derived by time) for body angular velocity
 
 43.	**frequency_domain_body_acceleration_x-axis-mean()**:
 
@@ -224,27 +224,27 @@ Fourier-transformed standard deviation of jerk-signal (derived by time) for body
 
 55.	**frequency_domain_body_gyroscope_x-axis-mean()**:
 
-Fourier-transformed mean of body gyroscope signal measured on x-axis
+Fourier-transformed mean of body angular velocity measured in x-plane
 
 56.	**frequency_domain_body_gyroscope_y-axis-mean()**:
 
-Fourier-transformed mean of body gyroscope signal measured on y-axis
+Fourier-transformed mean of body angular velocity measured in y-plane
 
 57.	**frequency_domain_body_gyroscope_z-axis-mean()**:
 
-Fourier-transformed mean of body gyroscope signal measured on z-axis
+Fourier-transformed mean of body angular velocity measured in z-plane
 
 58.	**frequency_domain_body_gyroscope_x-axis-std()**:
 
-Fourier-transformed standard deviation of body gyroscope signal measured on x-axis
+Fourier-transformed standard deviation of body angular velocity measured in x-plane
 
 59.	**frequency_domain_body_gyroscope_y-axis-std()**:
 
-Fourier-transformed standard deviation of body gyroscope signal measured on y-axis
+Fourier-transformed standard deviation of body angular velocity measured in y-plane
 
 60.	**frequency_domain_body_gyroscope_z-axis-std()**:
 
-Fourier-transformed standard deviation of body gyroscope signal measured on z-axis
+Fourier-transformed standard deviation of body angular velocity measured in z-plane
 
 61.	**frequency_domain_body_acceleration_magnitude-mean()**:
 
@@ -264,16 +264,16 @@ Fourier-transformed standard deviation of magnitude of jerk signal (derived by t
 
 65.	**frequency_domain_body_gyroscope_magnitude-mean()**:
 
-Fourier-transformed mean of magnitude of body gyroscope signal
+Fourier-transformed mean of magnitude of body angular velocity
 
 66.	**frequency_domain_body_gyroscope_magnitude-std()**:
 
-Fourier-transformed standard deviation of magnitude of body gyroscope signal
+Fourier-transformed standard deviation of magnitude of body angular velocity
 
 67.	**frequency_domain_body_gyroscope_jerk_magnitude-mean()**:
 
-Fourier-transformed mean of magnitude of jerk signal (derived by time) for body gyroscope signal
+Fourier-transformed mean of magnitude of jerk signal (derived by time) for body angular velocity
 
 68.	**frequency_domain_body_gyroscope_jerk_magnitude-std()**:
 
-Fourier-transformed standard deviation of magnitude of jerk signal (derived by time) for body gyroscope signal
+Fourier-transformed standard deviation of magnitude of jerk signal (derived by time) for body angular velocity
