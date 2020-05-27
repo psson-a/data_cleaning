@@ -1,10 +1,18 @@
+# Codebook for "UCI HAR data tidy.txt"
+
+## ID Variables
+
 1.	**subject**:
 
- ID code of subject performing measured activity
+ ID code of subject performing measured activity, ranged from 1 to 30
 
 2.	**activity**:
 
-Activity performed during measurements
+Activity performed during measurement, one of "walking", "walking_upstairs", "walking downstairs", "sitting", "standing" and "laying". Based on manual labeling of video recordings of the experiments.
+
+## Measured variables
+
+The original data was captured by the subject wearing a Samsung Galaxy S II - smartphone while performing various assigned activities. Linear acceleration (accelerometer) and angular velocity (gyroscope) were captured in the X, Y and Z axises/planes. The raw data for the script producing the current datafile has been preprocessed by various means (described in the README.txt file in the "UCI HAR DATASET" folder) to yield summary variables of the time-domain measurements and also Fourier-transformed to yield summary frequency-domain variables. The script further processes the data by selecting only the mean and standard deviation-variables for each measurement variable and then taking the mean over time for each subject-activity combination, yielding an average value per subject per activity for each measured variable. The unit of measurement for the variables is not known.
 
 3.	**body_acceleration_x-axis-mean()**:
 
